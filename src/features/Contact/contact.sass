@@ -1,0 +1,85 @@
+.Container-contact
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    width: 100%
+    padding: 20px
+
+.contact
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    text-align: center
+    gap: 50px
+    width: 800px
+    max-width: 100%
+    height: auto
+    border: 5px solid #E1B12C
+    border-radius: 16px
+    margin-bottom: 50px
+    padding: 20px
+
+.text-contact
+    display: flex
+    flex-direction: column
+    align-items: center
+    p, span
+        font-size: 1.2em
+
+.Logo_contact
+    display: flex
+    justify-content: space-around
+    width: 100%
+    max-width: 300px
+    margin-top: 20px
+    a
+        display: flex
+        justify-content: center
+        align-items: center
+        text-align: center  // Ajout pour le centrage sur certains navigateurs
+    img
+        width: 40px
+        height: 40px
+        margin: 0 10px
+        cursor: pointer
+        transition: transform 0.2s
+        &:hover
+            transform: scale(1.1)
+
+.dark
+    .contact
+        a
+            background-color: #fff
+            padding: 1px
+            border-radius: 10px
+            border: 2px solid #E1B12C
+
+@media (max-width: 768px)
+    .contact
+        width: 90%
+        padding: 10px
+
+    .text-contact
+        p, span
+            font-size: 0.9em
+
+    .Logo_contact
+        gap: 10px
+        margin-top: 10px
+            align-items: center  // Assure le centrage sur les petits écrans
+
+@media (max-width: 480px)
+    .contact
+        width: 100%
+        padding: 5px
+
+    .text-contact
+        p, span
+            font-size: 0.8em
+
+    .Logo_contact
+        img
+            width: 25px
+            height: 25px

@@ -1,0 +1,28 @@
+.button-1, .button-2, .button-3
+    width: 7px
+    height: 7px
+    background-color: #e1b12c
+    animation: disappear-reappear 6s infinite
+
+.button_container
+    display: flex
+    gap: 10px
+
+@keyframes disappear-reappear
+    0%, 14%, 100%
+        opacity: 1
+    28%, 42%
+        opacity: 0
+    56%, 70%
+        opacity: 0
+    84%
+        opacity: 1
+
+.button-1
+    animation-delay: 0s
+
+.button-2
+    animation-delay: 1s
+
+.button-3
+    animation-delay: 2s

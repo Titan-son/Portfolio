@@ -1,0 +1,52 @@
+.container_pos
+    width: 100%
+    height: 150px
+    position: relative
+    overflow: hidden
+
+    @media (max-width: 768px)
+        height: 120px
+
+    @media (max-width: 480px)
+        height: 100px
+
+.background-video
+    display: flex
+    justify-content: center
+    filter: blur(2px) brightness(70%)
+    width: 100%
+    height: 100%
+    object-fit: cover
+    position: absolute
+    top: 0
+    left: 0
+    z-index: 1
+
+.text-overlay
+    position: relative
+    z-index: 2
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    height: 100%
+    color: white
+    padding: 0 20px
+    text-align: center
+
+    h1, h2
+        margin: 0
+
+@media (max-width: 768px)
+    .text-overlay
+        h1
+            font-size: 1.5rem
+        h2
+            font-size: 1.2rem
+
+@media (max-width: 480px)
+    .text-overlay
+        h1
+            font-size: 1.3rem
+        h2
+            font-size: 1rem
