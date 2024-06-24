@@ -25,7 +25,7 @@ function Contact({ theme }) {
             <a href="https://www.linkedin.com/in/thalisson-da-silva-9a9844263/" target="_blank" rel="noopener noreferrer">
               <img src={linkedin} alt="LinkedIn" />
             </a>
-            <a href="tel:+3292097794">
+            <a href="tel:+32492097794">
               <img src={phone} alt="Phone" />
             </a>
           </div>
