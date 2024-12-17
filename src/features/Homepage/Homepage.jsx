@@ -145,7 +145,7 @@ function Homepage({ theme }) {
               <p>
               En ce qui concerne le back-end, j'utilise Node.js pour développer des serveurs rapides et évolutifs.
               Je gère des bases de données relationnelles en utilisant MySQL/SQL.
-              Et je prévilégie Python pour le développement de mes application.
+              Et je prévilégie Python pour le développement de mes applications.
               </p>
 <br />
               <p>
