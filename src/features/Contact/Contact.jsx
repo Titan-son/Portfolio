@@ -14,7 +14,7 @@ function Contact({ theme }) {
         <div className='contact'>
           <div className='text-contact'>
             <p> N'hésitez pas à me contacter à me contacter via mon e-mail ou alors via LinkedIn.</p>
-            <p>Mon numéro de téléphone ce trouve aussi en dessous .</p>
+            <p>Mon numéro de téléphone se trouve aussi en dessous .</p>
             <span>&</span>
             <p>Merci de votre visite voyageur !</p>
           </div>

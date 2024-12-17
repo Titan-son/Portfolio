@@ -144,8 +144,8 @@ function Homepage({ theme }) {
 <br />
               <p>
               En ce qui concerne le back-end, j'utilise Node.js pour développer des serveurs rapides et évolutifs.
-              Je gère des bases de données relationnelles en utilisant MySQL.
-              Je suis en mesure de programmer pour diverses applications back-end à ma connaissance de Python.
+              Je gère des bases de données relationnelles en utilisant MySQL/SQL.
+              Et je prévilégie Python pour le développement de mes application.
               </p>
 <br />
               <p>
